@@ -85,7 +85,7 @@ header nav a {
     color: black;
 }
 
-.img-under-header {
+.header-img {
     display: flex;
     justify-content: center;
     padding: 20px 0;
