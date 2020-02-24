@@ -34,13 +34,28 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+    Semantic HTML means using HTML tags that describe their contents rather than just using a generic tag. It would be like putting books in a box labeled "books" instead of putting books into a box that says "clothes" or into an unlabeled box. That way, when you come back to the box and read the label you know what is in the box without having to open it. If you don't label your boxes then you will have to open each and every one of them to find out what's inside and it will make it harder to keep track of your boxes. In the same way, it is harder to keep track of your code if you do not use semantic HTML tags.
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+    An element that is ```display: block;``` will take up the whole width of the page and the height of the content by default. However, the height and width can be changed by using the ```height``` and ```width``` properties.
+
+    An element that is ```display: inline;``` will only take up the height and width of the content by default. The height and width cannot be changed with the ```height``` and ```width``` properties.
 
 3. What are the 4 areas of the box model?
 
+    1. Content
+    2. Padding
+    3. Border
+    4. Margin
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+    The cross-axis
+
 5. Explain why git is valuable to a team of developers.
+
+    Git allows multiple developers to work on the same code at the same time by allowing each of them to code on their own branch. It also allows branches to be merged together, which means that when a developer is done with their code, it can be reviewed and merged into the final product. This allows developers to continue working on a product that is already being used without having to shut it down while they code. Git also keeps a record of all the previous versions of the code, so developers can revert back to a previous point in their code if necessary. 
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
