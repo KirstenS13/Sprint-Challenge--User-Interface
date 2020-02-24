@@ -68,6 +68,27 @@ p {
 
 header {
     display: flex;
+    justify-content: space-between;
+    width: 800px;
+    margin: 20px auto;   
+}
+
+header nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    width: 80%;
+}
+
+header nav a {
+    text-decoration: none;
+    color: black;
+}
+
+.img-under-header {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
 }
 
 .container {
