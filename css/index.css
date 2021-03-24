@@ -66,6 +66,32 @@ p {
     line-height: 1.4;
 }
 
+header {
+    display: flex;
+    justify-content: space-between;
+    width: 800px;
+    margin: 20px auto;   
+}
+
+header nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    width: 80%;
+}
+
+header nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+}
+
+.header-img {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+}
+
 .container {
     width: 800px;
     margin: 0 auto;
@@ -112,6 +138,46 @@ p {
     justify-content: center;
 }
 
+.middle-content .boxes .box1 {
+    background: teal;
+}
+
+.middle-content .boxes .box2 {
+    background: gold;
+}
+
+.middle-content .boxes .box3 {
+    background: cadetblue;
+}
+
+.middle-content .boxes .box4 {
+    background: coral;
+}
+
+.middle-content .boxes .box5 {
+    background: crimson;
+}
+
+.middle-content .boxes .box6 {
+    background: forestgreen;
+}
+
+.middle-content .boxes .box7 {
+    background: darkorchid;
+}
+
+.middle-content .boxes .box8 {
+    background: hotpink;
+}
+
+.middle-content .boxes .box9 {
+    background: indigo;
+}
+
+.middle-content .boxes .box10 {
+    background: dodgerblue;
+}
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -143,4 +209,47 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* CSS for About page */
+
+.about-top-content {
+    margin-bottom: 20px;
+    padding: 0 3%;
+}
+
+.about-middle-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border-top: 1px dashed black;
+}
+
+.middle-content-box {
+    width: 48%;
+    padding: 1rem 1%;
+    padding-bottom: 2rem;
+    margin: 20px 0;
+    border-bottom: 1px dashed black;
+}
+
+.middle-content-box h2 {
+    padding-top: 10px;
+}
+
+.middle-content-box p {
+    padding-bottom: 2rem;
+}
+
+.middle-content-box a {
+    text-decoration: none;
+    color: black;
+    padding: .5rem 1.5rem;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.about-bottom-content {
+    margin-bottom: 20px;
+    padding: 20px 3%;
 }
